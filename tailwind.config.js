@@ -10,8 +10,16 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-      },
+        primary: {
+          default: '#0891B2', 
+          light: '#C0E162',   
+          dark: '#1F8D4E', 
+      }
     },
   },
   plugins: [],
+}
+
 };
+
+
